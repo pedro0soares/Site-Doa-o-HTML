@@ -1,0 +1,258 @@
+/* Definição da fonte Sylvia Angel */
+@font-face {
+    font-family: 'Sylvia Angel';
+    src: url('font/Sylvia Angel.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b3e5e5; /* Fundo leve e suave */
+    color: #333;
+}
+
+/* Estilo do Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcedef; /* Cor vibrante e harmoniosa */
+    padding: 15px 30px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #fff;
+}
+
+header .logo img {
+    height: 60px; 
+    width: auto;
+    display: block;
+}
+
+header nav {
+    flex-grow: 1; /* Permite que o nav cresça para preencher o espaço disponível */
+    display: flex;
+    justify-content: center; /* Centraliza os itens de navegação */
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: #f98e9a;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #b3e5e5;
+}
+
+.donate-receive-buttons {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
+
+.receive-button, .donate-button {
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #f98e9a; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+.donate-button {
+    background-color: #71e0ce; 
+}
+
+.receive-button:hover, .donate-button:hover {
+    background-color: #017478;
+    color: #ffffff;
+}
+
+.receive-button:hover {
+    background-color: #71e0ce; 
+}
+
+.donate-button:hover {
+    background-color: #f98e9a; 
+}
+
+main {
+    padding: 20px;
+}
+
+.donation-section h2 {
+    text-align: center;
+    color: #f98e9a;
+    margin-bottom: 20px;
+    font-family: 'Sylvia Angel', sans-serif;
+}
+
+.donation-container {
+    background-color: #f98e9a;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.donation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.donation-options div {
+    background-color: #f5c7d3;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.donation-options h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 10px;
+    color: #f98e9a;
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none; 
+    border: none;
+}
+
+button:hover {
+    background-color: #71e0ce;
+    color: #ffffff;
+}
+
+.kit-composition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.kit-composition div {
+    background-color: #f5c7d3;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.kit-composition h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #017478;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Ícones sociais */
+footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-icons a:hover {
+    color: #b3e5e5;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo img {
+        margin-bottom: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .donate-button {
+        margin-top: 10px;
+    }
+
+    .donation-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .donation-options div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .kit-composition {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.donation-fonte {
+    font-family: 'Sylvia Angel';
+    src: url('font/Sylvia Angel.otf') format('opentype');
+}
+
+.fonteA {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.responsive-img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.responsive-img2 {
+    width: 100%; 
+    max-width: 28px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
